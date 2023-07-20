@@ -1,0 +1,40 @@
+body{
+  background-color: black;
+}
+.details p{
+  color: #ffffff;
+font-family: Urbanist;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20%;
+  
+}
+.card{
+  padding-top: 50px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #222;
+}
+.card-body a{
+  display: flex;
+  border-radius: 15px;
+background: var(--tomato-red, #E81A3F);
+}
+.button{
+  padding-top: 70px;
+}
+h5{
+  
+  color: #ffffff;
+  text-align: center;
+}

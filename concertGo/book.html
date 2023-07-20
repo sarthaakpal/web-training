@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/show.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">ConcertGo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Discovery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Catagory
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Rock</a></li>
+                                <li><a class="dropdown-item" href="#">Pop</a></li>
+                                <li><a class="dropdown-item" href="#">Hip-Hop</a></li>
+                                <li><a class="dropdown-item" href="#">Electronic</a></li>
+                                <li><a class="dropdown-item" href="#">R&B</a></li>
+                                <li><a class="dropdown-item" href="#">Inde</a></li>
+                                <li><a class="dropdown-item" href="#">Classical</a></li>
+                                <li><a class="dropdown-item" href="#">Country</a></li>
+                                <li><a class="dropdown-item" href="#">Reggae</a></li>
+                                <li><a class="dropdown-item" href="#">Metal</a></li>
+                                <li><a class="dropdown-item" href="#">Jazz</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="login-button-form">
+                        <!-- Button trigger modal -->
+                        <button class="btnLogin-popup" type="button" class="btn btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Login
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <form id="loginForm">
+                                                <input type="text" name="username" placeholder="Username" required>
+                                                <br><br>
+                                                <input type="password" name="password" placeholder="Password" required>
+                                            </form>
+                                            <div class="form-switch">
+                                                <a href="#" style="left: 0%;">Don't have an account? Sign up</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="container" id="signupForm" style="display: none;">
+                                            <h2>Sign Up</h2>
+                                            <form>
+                                                <input type="text" name="fullname" placeholder="Full Name" required>
+                                                <input type="email" name="email" placeholder="Email" required>
+                                                <input type="password" name="password" placeholder="Password" required>
+                                                <button type="submit">Sign Up</button>
+                                            </form>
+                                            <div class="form-switch">
+                                                <a href="#" posi>Already have an account? Login</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger"
+                                            data-bs-dismiss="modal">Login</button>
+                                        <button type="button" class="btn btn-danger">Register</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="banner">
+            <video loop src="vid4.mp4" type="video/mp4" autoplay="autoplay" width="100%" class="banner-box">
+        </section>
+        <div class="event-name">Unplugged Sessions: Acoustic Showcase</div>
+        <div class="borderr d-table w-100 mr-0">
+            <p>International | English | 18 yrs+ | 5hr</p>
+
+            <hr size="3" width="100%" color="white">
+            <div class="d-table-cell tar ">
+               <a href="ticket.html" ><button class="button-book d-block mr-0 ml-auto">Book Now</button></a>
+            </div>
+        </div>
+        <div class="event-container">
+            <div class="event-details">July 25, 2023 At 7:00 PM | Intimate Lounge | $35 Onword</div>
+            <br>
+            <div class="event-details">Artists Performing: 
+                <ul class="artist-name">
+                    <li>Sarah Thompson</li>
+                    <li>David Rodriguez</li>
+                    <li>Emily Collins</li>
+                </ul>
+            </div>
+        </div>
+        <div class="borderr1 d-table w-100 mr-0">   
+        <p>Click on interested to stay updated about this event </p>
+        <div class="d-table-cell mar ">
+        <button class="button">Interested</button>
+    </div>
+</div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

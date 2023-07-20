@@ -1,0 +1,135 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    
+  }
+
+.nav-item a{
+    color: #ffffff;
+}
+.nav-item a:hover{
+    color: #E81A3F;
+}
+.dropdown-menu a{
+  color: #000;
+  border-top-left-radius:20px ;
+  border-top-right-radius:20px ;
+}
+.navbar-brand {
+    color: #0D5C00;
+    font-family: Urbanist;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+.btnLogin-popup {
+    width: 60px;
+    height: 30px;
+    background-color: #E81A3F;
+    color: #ffffff;
+    margin-right: 30px;
+    border: 2px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: .5s;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.btnLogin-popup:hover {
+    background: #fff;
+    color: #162938;
+
+}
+  .event-container {
+    padding: 20px;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  .event-name {
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    padding-left: 50px;
+  }
+  .event-details {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 60px;
+  }
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .button-book{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+ 
+.d-table {
+    display:table;
+  }
+  
+  .d-table-cell {
+    display:table-cell;
+  }
+  
+  .w-100 {
+    width: 100%;
+  }
+  
+  .tar {
+    text-align: right;
+  }
+  
+.divider{
+    color: white;
+  }
+.borderr p{
+    padding-left: 80px;
+    color: #ffffff;
+}
+.borderr hr{
+    color: #ffffff;
+  margin-left: 80px;
+}
+a{
+    text-decoration: none;
+}
+ul {  
+    list-style-type: none; 
+    text-align: left
+ }
+.button{
+    border-radius: 10px;
+}
+.borderr1 p{
+ color: white;
+ align-content: center;
+ padding-left: 100px;
+
+}

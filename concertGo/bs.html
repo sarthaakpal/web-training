@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="bg1">
+        <nav class="navbar navbar-expand-lg bg-body-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">ConcertGo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Discovery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Catagory
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Rock</a></li>
+                                <li><a class="dropdown-item" href="#">Pop</a></li>
+                                <li><a class="dropdown-item" href="#">Hip-Hop</a></li>
+                                <li><a class="dropdown-item" href="#">Electronic</a></li>
+                                <li><a class="dropdown-item" href="#">R&B</a></li>
+                                <li><a class="dropdown-item" href="#">Inde</a></li>
+                                <li><a class="dropdown-item" href="#">Classical</a></li>
+                                <li><a class="dropdown-item" href="#">Country</a></li>
+                                <li><a class="dropdown-item" href="#">Reggae</a></li>
+                                <li><a class="dropdown-item" href="#">Metal</a></li>
+                                <li><a class="dropdown-item" href="#">Jazz</a></li>
+                                <li>
+
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="login-button-form">
+                        <!-- Button trigger modal -->
+                        <button class="btnLogin-popup" type="button" class="btn btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Login
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <form id="loginForm">
+                                                <input type="text" name="username" placeholder="Username" required>
+                                                <br><br>
+                                                <input type="password" name="password" placeholder="Password" required>
+                                            </form>
+                                            <div class="form-switch">
+                                                <a href="#" style="left: 0%;">Don't have an account? Sign up</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="container" id="signupForm" style="display: none;">
+                                            <h2>Sign Up</h2>
+                                            <form>
+                                                <input type="text" name="fullname" placeholder="Full Name" required>
+                                                <input type="email" name="email" placeholder="Email" required>
+                                                <input type="password" name="password" placeholder="Password" required>
+                                                <button type="submit">Sign Up</button>
+                                            </form>
+                                            <div class="form-switch">
+                                                <a href="#" posi>Already have an account? Login</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger"
+                                            data-bs-dismiss="modal">Login</button>
+                                        <button type="button" class="btn btn-danger">Register</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pic1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="pic2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="pic3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div>
+            <h2 class="header1">Trending Events</h2>
+        </div>
+        <div id="carouselExample" class="carousel carousel-dark data-bs-slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cards-wrapper">
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> "Summer Music Extravaganza"</h5>
+                                <p class="card-text">Date: July 15th, 2023</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a href="ticket.html"><button type="button" class="btn btn-danger btn-lg">Book
+                                            Now</button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> "Unplugged Sessions: Acoustic Showcase"</h5>
+                                <p class="card-text">Date: July 15th, 2023</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a href="ticket.html"><button type="button" class="btn btn-danger btn-lg">Book
+                                            Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> "Unplugged Sessions: Acoustic Showcase"</h5>
+                                <p class="card-text">Date: July 15th, 2023</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a href="ticket.html"><button type="button" class="btn btn-danger btn-lg">Book
+                                            Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> "Unplugged Sessions: Acoustic Showcase"</h5>
+                                <p class="card-text">Date: July 15th, 2023</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button type="button" class="btn btn-danger btn-lg">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper">
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic7.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> "Unplugged Sessions: Acoustic Showcase"</h5>
+                                <p class="card-text">Date: July 15th, 2023</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button type="button" class="btn btn-danger btn-lg">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic8.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> "Unplugged Sessions: Acoustic Showcase"</h5>
+                                <p class="card-text">Date: July 15th, 2023</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button type="button" class="btn btn-danger btn-lg">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> "Unplugged Sessions: Acoustic Showcase"</h5>
+                                <p class="card-text">Date: July 15th, 2023</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button type="button" class="btn btn-danger btn-lg">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> "Unplugged Sessions: Acoustic Showcase"</h5>
+                                <p class="card-text">Date: July 15th, 2023</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button type="button" class="btn btn-danger btn-lg">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper">
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> "Unplugged Sessions: Acoustic Showcase"</h5>
+                                <p class="card-text">Date: July 15th, 2023</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button type="button" class="btn btn-danger btn-lg">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> "Unplugged Sessions: Acoustic Showcase"</h5>
+                                <p class="card-text">Date: July 15th, 2023</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button type="button" class="btn btn-danger btn-lg">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> "Unplugged Sessions: Acoustic Showcase"</h5>
+                                <p class="card-text">Date: July 15th, 2023</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button type="button" class="btn btn-danger btn-lg">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> "Unplugged Sessions: Acoustic Showcase"</h5>
+                                <p class="card-text">Date: July 15th, 2023</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button type="button" class="btn btn-danger btn-lg">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div>
+            <h2 class="header1">Featured Events</h2>
+        </div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card1">
+                        <div class="card h-100" style="max-width: 500px;">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="pix20.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title"> "The Unforgettable Tour"</h5>
+                                        <p class="card-text">Experience the magic of "The Unforgettable Tour" as your
+                                            favorite band takes
+                                            the stage with...</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card h-100" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="pix1.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">"Soulful Sounds: An Evening of R&B"</h5>
+                                        <p class="card-text">Immerse yourself in the soulful melodies and captivating
+                                            rhythms of the R&B
+                                            genre with...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card h-100" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="pix9.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">"Rock Revolution: A Tribute to Legends"</h5>
+                                        <p class="card-text">Witness a thrilling tribute to the legends of rock as
+                                            top-notch musicians
+                                            come...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card1">
+                        <div class="card h-100" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="pix19.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">"Dance Party Extravaganza"</h5>
+                                        <p class="card-text">Welcome the New Year in style with a spectacular dance
+                                            party featuring top
+                                            DJs...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card h-100" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="pix18.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">"Epic Pop Divas Live"</h5>
+                                        <p class="card-text">Brace yourself for a powerhouse showcase of pop divas as
+                                            they grace the the
+                                            stage with their unparalleled...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card h-50" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="pix17.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">"Jazz Under the Stars"</h5>
+                                        <p class="card-text">Experience an enchanting evening of jazz music under the
+                                            twinkling stars. This
+                                            outdoor concert brings together renowned...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card1">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="pix14.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">"The Ultimate Country Showdown"</h5>
+                                        <p class="card-text">Get your cowboy boots on and immerse yourself in the heart
+                                            and soul of country
+                                            music...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="pix15.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">"Latin Beats Fiesta"</h5>
+                                        <p class="card-text">Embark on a sizzling musical journey with "Latin Beats
+                                            Fiesta," a vibrant...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="pix21.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">"Acoustic Serenade: Unplugged Magic"</h5>
+                                        <p class="card-text"> Immerse yourself in an intimate and soul-stirring acoustic
+                                            experience...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div>
+            <h2 class="header1">Upcoming Events</h2>
+        </div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card1">
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-text"> "Rockin' Summer Fest"</h5>
+                                <p>Genre: Rock
+                                    Date: August 15th, 2023
+                                    Venue: City Park Amphitheater</p>
+                                <p>Description: Join us for a day of non-stop rock featuring top bands from around the
+                                    world. Enjoy
+                                    electrifying performances, epic guitar solos...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic9.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-text">"Pop Sensation Live"</h5>
+                                <p>Genre: Pop
+                                    Date: September 5th, 2023
+                                    Venue: Downtown Arena</p>
+                                <p>Description: Get ready for a night of chart-topping hits and high-energy performances
+                                    by some of the
+                                    biggest pop stars of the ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pix10.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-text">"Hip-Hop Revolution"</h5>
+                                <p>Genre: Hip-Hop/Rap
+                                    Date: October 12th, 2023
+                                    Venue: Urban Arena</p>
+                                <p>Description: Immerse yourself in the world of hip-hop as legendary artists and rising
+                                    stars take the
+                                    stage. Experience the.....</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pic2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-text">"Electronic Odyssey"</h5>
+                                <p>Genre: Electronic/Dance
+                                    Date: November 20th, 2023
+                                    Venue: Club Pulse</p>
+                                <p>Description: Step into a mesmerizing world of electronic beats and dance-floor
+                                    anthems. Let the DJs
+                                    and producers....</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card1">
+                        <div class="card" style="width: 18rem;">
+                            <img src="pix5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-text">"World Music Fusion Night"</h5>
+                                <p>Date: September 10, 2023
+                                    Venue: Cultural Center</p>
+                                <p>Description: Immerse yourself in a mesmerizing fusion of global sounds at the World
+                                    Music Fusion
+                                    Night. Discover the...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pix11.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-text">"Holiday Extravaganza: Festive Celebration"</h5>
+                                <p>Date: December 22, 2023
+                                    Venue: City Square</p>
+                                <p>Description: Get into the holiday spirit with a spectacular festive celebration at
+                                    the Holiday
+                                    Extravaganza...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pix12.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-text"> "Summer Music Festival"</h5>
+                                <p>Date: novermber 15, 2023
+                                    Venue: Riverside Park</p>
+                                <p>Description: Join us for a day filled with music, food, and fun at the annual Summer
+                                    Music
+                                    Festival...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="pix13.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-text">"Broadway Spectacular: Showstopper Showcase"</h5>
+                                <p>Date: August 5, 2024
+                                    Venue: Grand Theater</p>
+                                <p>Description: Be captivated by the magic of Broadway as talented performers bring the
+                                    stage...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div>
+            <h2 class="header1">Catagory</h2>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card2">
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="Rectangle 57.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rock</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Rectangle 13.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pop</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="pic11.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hip-Hop</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Rectangle 59.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Electronic</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Rectangle 60.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">R&B</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card2">
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="Rectangle 70.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Indie</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Rectangle 66.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Classical</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Rectangle 67.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Country</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Rectangle 68.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Reggae</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Rectangle 69.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Metal</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <footer class="footer">
+        <h2 class="cg">ConcertGo</h2>
+
+        <div class="footer-links">
+            <div class="foot">
+                <a href="#">Help |</a>
+                <a href="#">About |</a>
+                <a href="#">Refund Policy |</a>
+                <a href="#">Terms </a>
+            </div>
+            <br>
+            <p> 2023 ConcertGo. All rights reserved. | Designed by <a
+                    href="https://palsarthaak.wixsite.com/sarthaakpal/portfolio">Sarthaak Pal</a><a></a>, Riya
+                Singh,Ishika Das &
+                Annaya Kundu</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

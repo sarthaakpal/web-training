@@ -1,0 +1,159 @@
+body {
+    background-color: black;
+}
+.nav-item a{
+  color: #ffffff;
+}
+.nav-item a:hover{
+    color: #E81A3F;
+}
+.dropdown-menu a{
+  color: #ffffff;
+}
+.navbar-brand {
+    color: #0D5C00;
+    font-family: Urbanist;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+
+
+.carousel-control-prev{
+  height: 50%;
+}
+.carousel-control-next{
+  height: 50%;
+}
+.form-switch{
+    left: 0%;
+}
+.cards-wrapper {
+    display: flex;
+}
+
+.card {
+    margin: 1em;
+    width: calc(100%/3);
+}
+
+.card1 {
+    display: flex;
+
+}
+
+.header1 {
+    color: white;
+    font-family: Urbanist;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: relative;
+    top: 10px;
+ 
+}
+
+.card-img {
+    width: min-content;
+    height: min-content;
+}
+
+
+.btnLogin-popup {
+    width: 60px;
+    height: 30px;
+    background-color: #E81A3F;
+    color: #ffffff;
+    margin-right: 30px;
+    border: 2px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: .5s;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.modal-footer{
+    left:auto;
+}
+
+.btnLogin-popup:hover {
+    background: #fff;
+    color: #162938;
+
+}
+
+footer {
+
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+    
+
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+}
+.cg {
+    color: #0D5C00;
+    text-align: left;
+    font-family: Urbanist;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .social-media-links {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.footer .social-media-links a {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 18px;
+}
+.footer-links{
+    
+    text-align: center;
+}
+.foot{
+    color: #000;
+font-family: Urbanist;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-links p{
+    font-size: 15px;
+}

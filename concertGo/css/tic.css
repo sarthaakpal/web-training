@@ -1,0 +1,97 @@
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    border: 1px solid #5D5D5F;
+    height: 50px;
+    background: #222;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.ticket-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.ticket {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #FFF;
+    padding: 10px;
+    width: 300px;
+}
+
+.ticket-quantity {
+    width: 30px;
+    text-align: center;
+}
+
+.ticket-label {
+    color: #000000;
+    margin-right: 10px;
+}
+
+.ticket-price {
+    align-items: center;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.ticket-actions {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-action {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding-top: 15px;
+    height: 40px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #5D5D5F;
+    background: #222;
+}
